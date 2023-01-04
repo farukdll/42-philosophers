@@ -24,7 +24,7 @@ make fclean
 - [Thread logic](https://www.cs.cmu.edu/afs/cs/academic/class/15492-f07/www/pthreads.html)
 - [What are the differences between process and thread? ](https://www.geeksforgeeks.org/multithreading-c-2/)
 
-## Starting ##
+## Summary ##
 Threads that the operating system runs concurrently are called processes. Processes can also have threads running concurrently within themselves, and they are also called Threads.
 
 Synchronization is needed from time to time between different processes or between Threads in the same process because these Threads want to access a shared resource provided by the operating system or maintained within the process itself to perform their tasks. As an example, let's take the case where Threads wants to write logs to a log file or screen. If two Threads try to write to the log file at the same time, the logs written to the file will be mixed up and become unreadable. Here a mechanism is needed to queue Threads to write to the log file.
