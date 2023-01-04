@@ -36,4 +36,5 @@ Mutex (MUTual EXclusions) is designed to provide exactly this mechanism. Mutexs 
 ## Image ##
 <img width="966" alt="Image-1" src="https://user-images.githubusercontent.com/97880185/210461944-01c7ec37-78ea-4d6e-9047-730aa91f65e7.png">
 
+<img width="939" alt="Image-2" src="https://user-images.githubusercontent.com/97880185/210462008-2a476961-eca1-4266-b95c-2365c3662b0c.png">
 
