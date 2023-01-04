@@ -31,3 +31,9 @@ Synchronization is needed from time to time between different processes or betwe
 
 Mutex (MUTual EXclusions) is designed to provide exactly this mechanism. Mutexs are simple data structures provided by the language in which the application is written and the Runtime. For each resource shared by different Threads, a Mutex is created to regulate access to the resource. The code region in which the shared resource is accessed is called the Critical Section. Thread with resource tries to take ownership of Mutex (Acquire). If the mutex is not currently held by another Thread, it takes the Thread Mutex, enters the Critical Section and uses the relevant resource. In the other case, that is, if the Mutex is currently being used by another Thread, the second Thread is put on hold by the processor. When the Thread holding the Mutex finishes the Critical Segment and leaves the Mutex, the Thread awaiting the release of the Mutex awakens and takes ownership of the Mutex and gains access to the shared resource by entering the Critical Segment.
 
+
+
+## Image ##
+<img width="966" alt="Image-1" src="https://user-images.githubusercontent.com/97880185/210461944-01c7ec37-78ea-4d6e-9047-730aa91f65e7.png">
+
+
